@@ -8,9 +8,9 @@ let middleFig;
 let nunito;
 
 function preload() {
-  corso = loadImage("../assets/corpsomin.png");
-  nunito = loadFont("../assets/NunitoSans-Bold.ttf");
-  figure2 = loadImage("../assets/figure2min.png");
+  corso = loadImage("./assets/corpsomin.png");
+  nunito = loadFont("./assets/NunitoSans-Bold.ttf");
+  figure2 = loadImage("./assets/figure2min.png");
 }
 function setup() {
   createCanvas(900, 900);
